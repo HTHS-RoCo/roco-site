@@ -1,5 +1,9 @@
 body {
-    margin: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20;
+    padding-right: 20;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -8,6 +12,13 @@ body {
     background: #f4f7f6;
     font-family: Arial, sans-serif;
     color: #333;
+}
+
+@media (max-width: 816px){
+    body{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 .container {
