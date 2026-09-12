@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Bootstrap Layout</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robotics & Coding Club</title>
   <!-- Link to official Bootstrap 5 CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/index.css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
@@ -23,9 +23,8 @@
             <!-- The Square Background -->
             <div class="logo-square-bg d-flex align-items-center justify-content-center me-2">
               <!-- Your Image -->
-              <img src="img/hths-primary-color-2.png" alt="HTHS Logo" class="logo-img">
+              <img src="img/hths-primary-color-2.png" alt="HTHS Logo" class="logo-img" />
             </div>
-
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -35,16 +34,15 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-3" aria-current="page" href="#">HOME</a>
+                <a class="nav-link fs-3 hover-underline-animation" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-3" aria-current="page" href="#">VEX</a>
+                <a class="nav-link fs-3 hover-underline-animation" aria-current="page" href="#">VEX</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-3" href="#">cypHER</a>
+                <a class="nav-link fs-3 hover-underline-animation" href="https://www.hthscypher.org/" target="_blank">cypHER</a>
               </li>
             </ul>
-
           </div>
         </div>
       </nav>
@@ -53,71 +51,113 @@
 
   <main>
     <div class="container-sm px-0">
-      <img src="img/hths-roco-gemini.jpg" alt="Robotics & Coding Main Image" class="main-img">
+      <img src="img/hths-roco-3.jpg" alt="Robotics & Coding Main Image" class="main-img" />
     </div>
-
-    <div class="container-sm">
+    <div class="container-sm px-0">
       <!-- row-cols-1: stacked on mobile | row-cols-md-3: 3 equal columns on medium screens and up -->
       <!-- g-4: adds horizontal and vertical spacing between cards -->
       <div class="row row-cols-1 row-cols-md-3 g-1 card-row">
-
-        <!-- Card 1 -->
+        <!-- Card 1 (VEX) -->
         <div class="col">
           <div class="card h-100 rounded-0">
-            <img src="img/vex.png" alt="VEX">
+            <img src="img/vex.png" alt="VEX" />
             <div class="card-body">
               <h3 class="card-title vex-about-us">About Us</h3>
-              <p class="card-text">
-              <ul>
-                <li>Use mechanical engineering and C++ programming to design and develop a robot capable of performing
-                  the
-                  current season’s task.</li>
-                <li>4 Teams: 765 A (Alpha), C (Cryo), N (Nova), X (Xenon)</li>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  A season-long high school robotics competition.
+                </li>
+                <li class="list-group-item">
+                  Use mechanical engineering and C++ programming to design and
+                  develop a robot capable of performing the current season’s
+                  task.
+                </li>
+                <li class="list-group-item">
+                  4 Teams: 765 A (Alpha), C (Cryo), N (Nova), X (Xenon)
+                </li>
               </ul>
-              </p>
+              <h3 class="card-title vex-competition">Competition</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Compete against other high school teams in NJ, the US and
+                  the world!
+                </li>
+                <li class="list-group-item">8 Worlds qualifying teams!</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <!-- Card 2 -->
+        <!-- Card 2 (General) -->
         <div class="col">
           <div class="card h-100 rounded-0">
-            <img src="img/roco.png" alt="RoCo" class="pt-5 pb-4">
+            <img src="img/roco.png" alt="RoCo" class=" roco-img" />
             <div class="card-body">
               <h3 class="card-title robotics">Robotics</h3>
-              <p class="card-text">
-              <ul>
-                <li>No experience required to join!</li>
-                <li>Second semester, weekly in-person meetings</li>
-                <li>This year, we will be looking into circuitry outside the scope of Arduino (soldering, bluetooth-connected circuits, etc.).</li>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  No experience required to join!
+                </li>
+                <li class="list-group-item">
+                  Second semester, weekly in-person meetings.
+                </li>
+                <li class="list-group-item">
+                  Circuit design outside the scope of Arduino (soldering,
+                  bluetooth-connected circuits, etc.).
+                </li>
               </ul>
-              </p>
+              <h3 class="card-title coding">Coding</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  No experience required to join!
+                </li>
+                <li class="list-group-item">
+                  Two tracks available: Low and High Level C.
+                </li>
+                <li class="list-group-item">Virtual meetings weekly</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <!-- Card 3 -->
+        <!-- Card 3 (cypHER)-->
         <div class="col">
           <div class="card h-100 rounded-0">
-            <img src="img/cypher.png" alt="cypHER">
+            <img src="img/cypher.png" alt="cypHER" />
             <div class="card-body">
               <h3 class="card-title cypher-about-us">About Us</h3>
-              <p class="card-text">
-              <ul>
-                <li>Use mechanical engineering and C++ programming to design and develop a robot capable of performing
-                  the
-                  current season’s task.</li>
-                <li>4 Teams: 765 A (Alpha), C (Cryo), N (Nova), X (Xenon)</li>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Help students create their own websites
+                </li>
+                <li class="list-group-item">
+                  Teach the programming/driving of VEX robots
+                </li>
+                <li class="list-group-item">Act as female mentors in STEM</li>
               </ul>
-              </p>
+              <h3 class="card-title cypher-about-us">Positions</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Teaching assistants for web development, robotics, arduino,
+                  and Python courses
+                </li>
+                <li class="list-group-item">
+                  Graphic design, marketing, and junior/senior leads
+                </li>
+                <li class="list-group-item">Act as female mentors in STEM</li>
+              </ul>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </main>
 
+  <footer>
+    <div class="container-sm">
+    <img src="img/mcvsd.png" alt="MCVSD & HTHS Logos" class="footer-img">
+    </div>
+  </footer>
 </body>
 
 </html>
