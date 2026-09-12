@@ -1,17 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTHS Robotics & Coding Club</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Bootstrap Layout</title>
+  <!-- Link to official Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="spinner"></div>
-        <h1>HTHS Robotics & Coding Club</h1>
-        <p>Site construction in progress.  Please check back soon for updates!</p>
-        <img src="img/hths-primary-color.png" alt="HTHS Color Logo"> 
-    </div> 
+  <header class="header">
+    <div class="container-sm">
+      <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <!-- The Square Background -->
+            <div class="logo-square-bg d-flex align-items-center justify-content-center me-2">
+              <!-- Your Image -->
+              <img src="img/hths-primary-color-2.png" alt="HTHS Logo" class="logo-img">
+            </div>
+
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fs-3" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-3" aria-current="page" href="#">VEX</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-3" href="#">cypHER</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-sm px-0">
+      <img src="img/hths-roco-gemini.jpg" alt="Robotics & Coding Main Image" class="main-img">
+    </div>
+
+    <div class="container-sm">
+      <!-- row-cols-1: stacked on mobile | row-cols-md-3: 3 equal columns on medium screens and up -->
+      <!-- g-4: adds horizontal and vertical spacing between cards -->
+      <div class="row row-cols-1 row-cols-md-3 g-1 card-row">
+
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100 rounded-0">
+            <img src="img/vex.png" alt="VEX">
+            <div class="card-body">
+              <h3 class="card-title vex-about-us">About Us</h3>
+              <p class="card-text">
+              <ul>
+                <li>Use mechanical engineering and C++ programming to design and develop a robot capable of performing
+                  the
+                  current season’s task.</li>
+                <li>4 Teams: 765 A (Alpha), C (Cryo), N (Nova), X (Xenon)</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100 rounded-0">
+            <img src="img/roco.png" alt="RoCo" class="pt-5 pb-4">
+            <div class="card-body">
+              <h3 class="card-title robotics">Robotics</h3>
+              <p class="card-text">
+              <ul>
+                <li>No experience required to join!</li>
+                <li>Second semester, weekly in-person meetings</li>
+                <li>This year, we will be looking into circuitry outside the scope of Arduino (soldering, bluetooth-connected circuits, etc.).</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100 rounded-0">
+            <img src="img/cypher.png" alt="cypHER">
+            <div class="card-body">
+              <h3 class="card-title cypher-about-us">About Us</h3>
+              <p class="card-text">
+              <ul>
+                <li>Use mechanical engineering and C++ programming to design and develop a robot capable of performing
+                  the
+                  current season’s task.</li>
+                <li>4 Teams: 765 A (Alpha), C (Cryo), N (Nova), X (Xenon)</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
 </body>
+
 </html>

@@ -1,0 +1,35 @@
+body {
+    background: #a4a6a5;
+}
+
+.container-sm {
+    background: #89535c;
+    overflow: hidden;
+}
+
+.logo-img{
+    width: 100px;
+    height: 90px;
+}
+
+.main-img{
+    width: 100%
+}
+
+.vex-about-us{
+    color:#980000
+}
+
+.cypher-about-us{
+    color:#674ea7ff
+}
+
+.robotics{
+    color:#cc4125
+}
+
+
+
+
+
+
