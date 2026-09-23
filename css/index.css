@@ -12,6 +12,10 @@ body {
     height: 90px;
 }
 
+.make-bold {
+  font-weight: bold; 
+}
+
 .main-img{
     width: 100%
 }
